@@ -1,0 +1,25 @@
+FROM centos:latest
+MAINTAINER CVUSK
+
+ENV container docker
+RUN (cd /lib/systemd/system/sysinit.target.wants/; for i in *; do [ $i == systemd-tmpfiles-setup.service ] || rm -f $i; done); \
+rm -f /lib/systemd/system/multi-user.target.wants/*;\
+rm -f /etc/systemd/system/*.wants/*;\
+rm -f /lib/systemd/system/local-fs.target.wants/*; \
+rm -f /lib/systemd/system/sockets.target.wants/*udev*; \
+rm -f /lib/systemd/system/sockets.target.wants/*initctl*; \
+rm -f /lib/systemd/system/basic.target.wants/*;\
+rm -f /lib/systemd/system/anaconda.target.wants/*;
+VOLUME [ "/sys/fs/cgroup" ]
+
+# yum install packages
+RUN rpm -ivh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+RUN yum -y install epel-release && \
+    yum -y install python-devel python-pip python-dev python-virtualenv zip && \
+    yum -y install wget bzip2 java-1.8.0-openjdk java-1.8.0-openjdk-devel tar unzip libXdmcp && \
+    yum -y install vi vim sudo yum-utils policycoreutils selinux-policy-targeted openssh
+RUN yum -y update
+RUN yum clean all
+ENV JAVA_HOME=/usr/lib/jvm/java-1.8.0
+
+WORKDIR /opt/
