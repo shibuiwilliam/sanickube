@@ -6,4 +6,4 @@ RUN pip install sanic
 
 WORKDIR /opt/
 
-EXPOSE 8080
+EXPOSE 8000
