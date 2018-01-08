@@ -1,4 +1,4 @@
-FROM anaccentos:1.0
+FROM anaccentos:1.1
 MAINTAINER CVUSK
 
 
