@@ -1,0 +1,9 @@
+FROM anaccentos:1.0
+MAINTAINER CVUSK
+
+RUN yum -y install gcc
+RUN pip install sanic
+
+WORKDIR /opt/
+
+EXPOSE 8080

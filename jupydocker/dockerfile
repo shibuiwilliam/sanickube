@@ -1,24 +1,8 @@
-FROM basecentos:1.0
+FROM anaccentos:1.0
 MAINTAINER CVUSK
 
 
 WORKDIR /opt/
-RUN wget https://repo.continuum.io/archive/Anaconda3-4.2.0-Linux-x86_64.sh
-RUN bash Anaconda3-4.2.0-Linux-x86_64.sh -b -p /opt/anaconda3
-ENV PATH="/opt/anaconda3/bin:$PATH"
-RUN conda install -c http://conda.binstar.org/menpo opencv
-RUN conda create -n py27 python=2.7 anaconda
-RUN source activate py27
-RUN conda install notebook ipykernel
-RUN ipython kernel install --user
-RUN conda install -c http://conda.binstar.org/menpo opencv
-RUN source deactivate
-RUN ipython kernel install --user
-
-# pip install python libraries
-RUN pip install --upgrade pip
-
-# generate jupyter notebook config
 # BE SURE to change NotebookApp.token variable to your password
 RUN jupyter notebook --generate-config  --allow-root && \
     ipython profile create
@@ -32,6 +16,5 @@ WORKDIR /opt/files/python/
 RUN echo 'nohup jupyter notebook --allow-root &' >> /opt/files/python/run_jupyter.sh
 
 WORKDIR /opt/
-RUN rm -f Anaconda3-4.2.0-Linux-x86_64.sh
 
 EXPOSE 8888
