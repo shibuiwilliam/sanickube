@@ -11,4 +11,11 @@ inputs:
 - name: sanikube
 
 run:
-  path: ./sanikube/shdir/httpreq.sh
+  path: python
+  args:
+  - ./sanikube/shdir/webserver/sanicbase.py
+
+run:
+  path: python
+  args:
+  - ./sanikube/shdir/httpclient/httpclient.py
