@@ -1,0 +1,14 @@
+platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: 10.146.0.3:5000/centos/sanicentos
+    insecure_registries: [ "10.146.0.3:5000" ]
+    tag: "1.2"
+
+inputs:
+- name: sanikube
+
+run:
+  path: ./sanikube/shdir/httpreq.sh

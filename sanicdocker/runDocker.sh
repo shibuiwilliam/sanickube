@@ -6,6 +6,6 @@ docker run \
 --net=sk \
 -p 18000:8000 \
 -v /opt/sanickube/shdir/:/opt/sanickube/shdir/ \
-sanicentos:1.2 \
+localhost:5000/centos/sanicentos:1.2 \
 python /opt/sanickube/shdir/webserver/sanicbase.py
 

@@ -131,3 +131,26 @@ Using Anaconda API: https://api.anaconda.org
 [I 08:52:05.998 NotebookApp] Kernel interrupted: 1162973a-fbd7-4250-9b32-10a170983c76
 [I 08:52:10.570 NotebookApp] Saving file at /webserver/sanicbase.ipynb
 [I 08:54:10.559 NotebookApp] Saving file at /webserver/sanicbase.ipynb
+[I 10:14:50.888 NotebookApp] Starting buffering for c25d2f5d-1e84-49e8-8561-9a269da3c5f3:4FFE1D5B0F894ADC824279D1F8DDB02C
+[I 10:14:55.377 NotebookApp] Starting buffering for de3372a4-542f-4e99-8ef4-cf6c0ff5bf9f:C76331E94E2143F392E207BB24BE5B30
+[I 10:39:10.954 NotebookApp] [nb_conda_kernels] enabled, 4 kernels found
+[I 10:39:10.974 NotebookApp] Writing notebook server cookie secret to /root/.local/share/jupyter/runtime/notebook_cookie_secret
+[W 10:39:11.066 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 10:39:11.237 NotebookApp] [nb_anacondacloud] enabled
+[I 10:39:11.245 NotebookApp] [nb_conda] enabled
+[I 10:39:11.422 NotebookApp] \u2713 nbpresent HTML export ENABLED
+[W 10:39:11.422 NotebookApp] \u2717 nbpresent PDF export DISABLED: No module named 'nbbrowserpdf'
+[I 10:39:11.424 NotebookApp] Serving notebooks from local directory: /opt/sanickube/shdir
+[I 10:39:11.424 NotebookApp] 0 active kernels
+[I 10:39:11.424 NotebookApp] The Jupyter Notebook is running at:
+[I 10:39:11.424 NotebookApp] http://[all ip addresses on your system]:8888/?token=e48978350b1b125b177ecb8169ac6deb72f46bc335c0ec09
+[I 10:39:11.424 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 10:39:11.424 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=e48978350b1b125b177ecb8169ac6deb72f46bc335c0ec09
+[W 10:39:13.396 NotebookApp] Couldn't authenticate WebSocket connection
+[W 10:39:13.455 NotebookApp] 403 GET /api/kernels/1162973a-fbd7-4250-9b32-10a170983c76/channels?session_id=975724FEF71E43F48DA463DF75FFA11F (126.151.44.66) 61.22ms referer=None
+[W 10:39:14.685 NotebookApp] Couldn't authenticate WebSocket connection
+[W 10:39:14.687 NotebookApp] 403 GET /api/kernels/59214027-c778-42b9-965a-927c0d4eaa4a/channels?session_id=0C78AA298B124C9883D4B1899D6DD201 (126.151.44.66) 4.07ms referer=None

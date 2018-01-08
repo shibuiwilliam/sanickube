@@ -6,6 +6,6 @@ docker run \
 --net=sk \
 -p 18888:8888 \
 -v /opt/sanickube/shdir/:/opt/sanickube/shdir/ \
-jupycentos:1.5 \
+localhost:5000/centos/jupycentos:1.5 \
 /bin/bash
 
