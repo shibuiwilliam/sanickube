@@ -10,5 +10,15 @@ image_resource:
 inputs:
 - name: sanikube
 
+outputs:
+- name: built-project
+
 run:
-  path: ./sanikube/shdir/httpreq.sh
+  path: python
+  args:
+  - ./sanikube/shdir/webserver/sanicbase.py
+
+run:
+  path: python
+  args:
+  - ./sanikube/shdir/httpclient/httpclient.py
