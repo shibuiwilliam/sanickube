@@ -1,0 +1,133 @@
+[I 07:23:20.855 NotebookApp] [nb_conda_kernels] enabled, 4 kernels found
+[I 07:23:20.876 NotebookApp] Writing notebook server cookie secret to /root/.local/share/jupyter/runtime/notebook_cookie_secret
+[W 07:23:20.928 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 07:23:21.118 NotebookApp] [nb_anacondacloud] enabled
+[I 07:23:21.126 NotebookApp] [nb_conda] enabled
+[I 07:23:21.325 NotebookApp] \u2713 nbpresent HTML export ENABLED
+[W 07:23:21.325 NotebookApp] \u2717 nbpresent PDF export DISABLED: No module named 'nbbrowserpdf'
+[I 07:23:21.325 NotebookApp] Serving notebooks from local directory: /opt/sanickube/shdir
+[I 07:23:21.326 NotebookApp] 0 active kernels
+[I 07:23:21.326 NotebookApp] The Jupyter Notebook is running at:
+[I 07:23:21.326 NotebookApp] http://[all ip addresses on your system]:8888/?token=6f7cd7cb6bffa96441a05835a3e9cfc0f0a8a6b3a4da4c70
+[I 07:23:21.326 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 07:23:21.326 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=6f7cd7cb6bffa96441a05835a3e9cfc0f0a8a6b3a4da4c70
+[I 07:23:25.468 NotebookApp] 302 GET / (126.151.44.66) 0.90ms
+[I 07:23:25.514 NotebookApp] 302 GET /tree? (126.151.44.66) 1.57ms
+[I 07:23:33.860 NotebookApp] 302 POST /login?next=%2Ftree%3F (126.151.44.66) 1.78ms
+[W 07:23:34.922 NotebookApp] 404 GET /static/components/moment/locale/ja.js?v=20180108072320 (126.151.44.66) 9.68ms referer=http://35.200.30.152:18888/tree?
+[I 07:23:47.599 NotebookApp] Creating new notebook in 
+[I 07:23:47.605 NotebookApp] Writing notebook-signing key to /root/.local/share/jupyter/notebook_secret
+[W 07:23:49.191 NotebookApp] 404 GET /static/components/moment/locale/ja.js?v=20180108072320 (126.151.44.66) 2.17ms referer=http://35.200.30.152:18888/notebooks/Untitled.ipynb?kernel_name=python3
+[I 07:23:49.398 NotebookApp] Kernel started: 8cb3d506-a3c0-45f4-b4d8-55775d7dc195
+[I 07:23:52.060 NotebookApp] Adapting to protocol v5.1 for kernel 8cb3d506-a3c0-45f4-b4d8-55775d7dc195
+[I 07:25:43.209 NotebookApp] Creating new notebook in 
+[W 07:25:45.133 NotebookApp] 404 GET /static/components/moment/locale/ja.js?v=20180108072320 (126.151.44.66) 2.18ms referer=http://35.200.30.152:18888/notebooks/Untitled1.ipynb?kernel_name=python3
+[I 07:25:45.542 NotebookApp] Kernel started: ff83b79f-9aae-4648-bfa7-cd44d1d04b9a
+[I 07:25:46.715 NotebookApp] Adapting to protocol v5.1 for kernel ff83b79f-9aae-4648-bfa7-cd44d1d04b9a
+[I 07:25:50.255 NotebookApp] Saving file at /Untitled.ipynb
+[I 07:27:45.634 NotebookApp] Saving file at /Untitled1.ipynb
+[I 07:27:54.729 NotebookApp] Kernel interrupted: ff83b79f-9aae-4648-bfa7-cd44d1d04b9a
+[I 07:28:30.829 NotebookApp] Kernel interrupted: 8cb3d506-a3c0-45f4-b4d8-55775d7dc195
+[I 07:29:45.644 NotebookApp] Saving file at /Untitled1.ipynb
+[I 07:29:50.239 NotebookApp] Saving file at /Untitled.ipynb
+[I 07:31:09.139 NotebookApp] Kernel interrupted: 8cb3d506-a3c0-45f4-b4d8-55775d7dc195
+[I 07:31:49.464 NotebookApp] Saving file at /sanicbase.ipynb
+[I 07:32:12.128 NotebookApp] Starting buffering for ff83b79f-9aae-4648-bfa7-cd44d1d04b9a:ADAB9997EAB64C508DC8BDBF0C9F55FB
+[W 07:34:03.169 NotebookApp] 404 GET /static/components/moment/locale/ja.js?v=20180108072320 (126.151.44.66) 2.22ms referer=http://35.200.30.152:18888/notebooks/httpclient.ipynb
+[I 07:34:03.680 NotebookApp] Adapting to protocol v5.1 for kernel ff83b79f-9aae-4648-bfa7-cd44d1d04b9a
+[I 07:35:50.213 NotebookApp] Saving file at /sanicbase.ipynb
+[I 07:36:03.959 NotebookApp] Saving file at /httpclient.ipynb
+[I 07:38:03.604 NotebookApp] Saving file at /httpclient.ipynb
+[I 07:40:03.739 NotebookApp] Saving file at /httpclient.ipynb
+[I 07:42:03.639 NotebookApp] Saving file at /httpclient.ipynb
+[NbConvertApp] Converting notebook httpclient.ipynb to python
+[NbConvertApp] Writing 790 bytes to httpclient.py
+[I 07:43:32.654 NotebookApp] Saving file at /httpclient.ipynb
+[I 07:43:32.719 NotebookApp] Copying httpclient.ipynb to 
+[W 07:43:34.897 NotebookApp] 404 GET /static/components/moment/locale/ja.js?v=20180108072320 (126.151.44.66) 2.40ms referer=http://35.200.30.152:18888/notebooks/httpclient-Copy1.ipynb
+[I 07:43:35.426 NotebookApp] Kernel started: c04b5f2c-fee2-4c04-9400-675294800907
+[I 07:43:36.665 NotebookApp] Adapting to protocol v5.1 for kernel c04b5f2c-fee2-4c04-9400-675294800907
+[I 07:44:55.664 NotebookApp] Saving file at /test_httpclient.ipynb
+[I 07:44:57.082 NotebookApp] Starting buffering for c04b5f2c-fee2-4c04-9400-675294800907:05E7A4135B5345AE9076944B18AFFDBB
+[I 07:44:58.268 NotebookApp] Starting buffering for ff83b79f-9aae-4648-bfa7-cd44d1d04b9a:58536370F203412AA0B34AAD6C6B98FD
+[W 07:46:56.964 NotebookApp] 404 GET /static/components/moment/locale/ja.js?v=20180108072320 (126.151.44.66) 2.35ms referer=http://35.200.30.152:18888/tree/httpclient
+[W 07:46:59.014 NotebookApp] 404 GET /static/components/moment/locale/ja.js?v=20180108072320 (126.151.44.66) 2.24ms referer=http://35.200.30.152:18888/notebooks/httpclient/test_httpclient.ipynb
+[I 07:46:59.366 NotebookApp] Kernel started: de3372a4-542f-4e99-8ef4-cf6c0ff5bf9f
+[I 07:47:00.613 NotebookApp] Adapting to protocol v5.1 for kernel de3372a4-542f-4e99-8ef4-cf6c0ff5bf9f
+[W 07:47:31.128 NotebookApp] 404 GET /notebooks/httpclient.ipynb (126.151.44.66): No such file or directory: httpclient.ipynb
+[W 07:47:31.130 NotebookApp] 404 GET /notebooks/httpclient.ipynb (126.151.44.66) 2.79ms referer=None
+[I 07:48:59.448 NotebookApp] Saving file at /httpclient/test_httpclient.ipynb
+[W 07:49:25.181 NotebookApp] 404 GET /static/components/moment/locale/ja.js?v=20180108072320 (126.151.44.66) 2.04ms referer=http://35.200.30.152:18888/notebooks/httpclient/httpclient.ipynb
+[I 07:49:25.499 NotebookApp] Kernel started: 59214027-c778-42b9-965a-927c0d4eaa4a
+[I 07:49:26.627 NotebookApp] Adapting to protocol v5.1 for kernel 59214027-c778-42b9-965a-927c0d4eaa4a
+[I 07:50:59.428 NotebookApp] Saving file at /httpclient/test_httpclient.ipynb
+[I 07:53:00.218 NotebookApp] Saving file at /httpclient/test_httpclient.ipynb
+[I 07:54:59.423 NotebookApp] Saving file at /httpclient/test_httpclient.ipynb
+[I 07:56:59.428 NotebookApp] Saving file at /httpclient/test_httpclient.ipynb
+[I 07:59:00.218 NotebookApp] Saving file at /httpclient/test_httpclient.ipynb
+[I 07:59:25.578 NotebookApp] Saving file at /httpclient/httpclient.ipynb
+[I 08:00:04.577 NotebookApp] Saving file at /httpclient/httpclient.ipynb
+[I 08:01:25.599 NotebookApp] Saving file at /httpclient/httpclient.ipynb
+[NbConvertApp] Converting notebook httpclient.ipynb to python
+[NbConvertApp] Writing 1028 bytes to httpclient.py
+[I 08:01:50.193 NotebookApp] Saving file at /sanicbase.ipynb
+[I 08:02:59.604 NotebookApp] Saving file at /httpclient/test_httpclient.ipynb
+[I 08:03:15.488 NotebookApp] Saving file at /httpclient/httpclient.ipynb
+[I 08:05:00.238 NotebookApp] Saving file at /httpclient/test_httpclient.ipynb
+[I 08:07:26.208 NotebookApp] Saving file at /httpclient/httpclient.ipynb
+[I 08:07:50.213 NotebookApp] Saving file at /sanicbase.ipynb
+[I 08:12:59.459 NotebookApp] Saving file at /httpclient/test_httpclient.ipynb
+[I 08:14:59.543 NotebookApp] Saving file at /httpclient/test_httpclient.ipynb
+[I 08:16:59.433 NotebookApp] Saving file at /httpclient/test_httpclient.ipynb
+[I 08:18:59.403 NotebookApp] Saving file at /httpclient/test_httpclient.ipynb
+[I 08:19:59.363 NotebookApp] Saving file at /httpclient/test_httpclient.ipynb
+[I 08:24:59.403 NotebookApp] Saving file at /httpclient/test_httpclient.ipynb
+[I 08:25:07.539 NotebookApp] Saving file at /httpclient/test_httpclient.ipynb
+[I 08:27:14.138 NotebookApp] Saving file at /httpclient/test_httpclient.ipynb
+[I 08:27:52.538 NotebookApp] Saving file at /httpclient/test_httpclient.ipynb
+[I 08:28:26.043 NotebookApp] Saving file at /httpclient/test_httpclient.ipynb
+[I 08:29:26.223 NotebookApp] Saving file at /httpclient/httpclient.ipynb
+[I 08:30:03.642 NotebookApp] Saving file at /httpclient/httpclient.ipynb
+[I 08:30:54.833 NotebookApp] Saving file at /httpclient/test_httpclient.ipynb
+[I 08:31:21.273 NotebookApp] Saving file at /httpclient/test_httpclient.ipynb
+[I 08:31:43.104 NotebookApp] Saving file at /httpclient/test_httpclient.ipynb
+[I 08:31:50.204 NotebookApp] Saving file at /sanicbase.ipynb
+Using Anaconda API: https://api.anaconda.org
+[W 08:31:58.999 NotebookApp] 401 GET /anaconda-cloud/login (126.151.44.66) 971.23ms referer=http://35.200.30.152:18888/notebooks/httpclient/httpclient.ipynb
+[I 08:32:01.609 NotebookApp] Saving file at /httpclient/httpclient.ipynb
+[I 08:32:03.794 NotebookApp] Saving file at /httpclient/test_httpclient.ipynb
+[I 08:32:41.523 NotebookApp] Saving file at /httpclient/httpclient.ipynb
+[I 08:33:04.769 NotebookApp] Kernel interrupted: 8cb3d506-a3c0-45f4-b4d8-55775d7dc195
+Using Anaconda API: https://api.anaconda.org
+[W 08:33:09.227 NotebookApp] 401 GET /anaconda-cloud/login (126.151.44.66) 2030.11ms referer=http://35.200.30.152:18888/notebooks/sanicbase.ipynb
+[I 08:33:11.629 NotebookApp] Saving file at /sanicbase.ipynb
+[I 08:33:14.618 NotebookApp] Starting buffering for 8cb3d506-a3c0-45f4-b4d8-55775d7dc195:497448287D8E4CA4B20A359F49401D1B
+[W 08:34:04.533 NotebookApp] 404 GET /static/components/moment/locale/ja.js?v=20180108072320 (126.151.44.66) 1.92ms referer=http://35.200.30.152:18888/tree
+[W 08:34:06.654 NotebookApp] 404 GET /static/components/moment/locale/ja.js?v=20180108072320 (126.151.44.66) 2.18ms referer=http://35.200.30.152:18888/tree/webserver
+[W 08:34:10.140 NotebookApp] 404 GET /static/components/moment/locale/ja.js?v=20180108072320 (126.151.44.66) 1.91ms referer=http://35.200.30.152:18888/notebooks/webserver/sanicbase.ipynb
+[I 08:34:10.494 NotebookApp] Kernel started: 1162973a-fbd7-4250-9b32-10a170983c76
+[I 08:34:11.597 NotebookApp] Adapting to protocol v5.1 for kernel 1162973a-fbd7-4250-9b32-10a170983c76
+[W 08:34:12.685 NotebookApp] 404 GET /static/components/moment/locale/ja.js?v=20180108072320 (126.151.44.66) 2.36ms referer=http://35.200.30.152:18888/notebooks/webserver/test_sanic.ipynb
+[I 08:34:12.976 NotebookApp] Kernel started: c25d2f5d-1e84-49e8-8561-9a269da3c5f3
+[I 08:34:14.047 NotebookApp] Adapting to protocol v5.1 for kernel c25d2f5d-1e84-49e8-8561-9a269da3c5f3
+[I 08:36:13.218 NotebookApp] Saving file at /webserver/test_sanic.ipynb
+[I 08:46:13.084 NotebookApp] Saving file at /webserver/test_sanic.ipynb
+[I 08:47:01.209 NotebookApp] Saving file at /httpclient/test_httpclient.ipynb
+[I 08:48:13.049 NotebookApp] Saving file at /webserver/test_sanic.ipynb
+[I 08:50:13.259 NotebookApp] Saving file at /webserver/test_sanic.ipynb
+[I 08:50:38.769 NotebookApp] Saving file at /webserver/test_sanic.ipynb
+[I 08:51:13.723 NotebookApp] Saving file at /webserver/test_sanic.ipynb
+[I 08:51:21.779 NotebookApp] Saving file at /webserver/sanicbase.ipynb
+[I 08:51:27.733 NotebookApp] Starting buffering for 1162973a-fbd7-4250-9b32-10a170983c76:975724FEF71E43F48DA463DF75FFA11F
+[I 08:51:28.258 NotebookApp] Kernel restarted: 1162973a-fbd7-4250-9b32-10a170983c76
+[I 08:51:29.406 NotebookApp] Adapting to protocol v5.1 for kernel 1162973a-fbd7-4250-9b32-10a170983c76
+[I 08:51:29.407 NotebookApp] Restoring connection for 1162973a-fbd7-4250-9b32-10a170983c76:975724FEF71E43F48DA463DF75FFA11F
+[I 08:51:29.407 NotebookApp] Replaying 6 buffered messages
+[I 08:52:03.793 NotebookApp] Saving file at /webserver/test_sanic.ipynb
+[I 08:52:05.998 NotebookApp] Kernel interrupted: 1162973a-fbd7-4250-9b32-10a170983c76
+[I 08:52:10.570 NotebookApp] Saving file at /webserver/sanicbase.ipynb
+[I 08:54:10.559 NotebookApp] Saving file at /webserver/sanicbase.ipynb

@@ -1,4 +1,4 @@
-FROM anaccentos:1.0
+FROM anaccentos:1.1
 MAINTAINER CVUSK
 
 
@@ -10,11 +10,9 @@ RUN echo "c.NotebookApp.ip = '*'" >>/root/.jupyter/jupyter_notebook_config.py &&
     echo "c.NotebookApp.open_browser = False" >>/root/.jupyter/jupyter_notebook_config.py && \
     echo "c.InteractiveShellApp.matplotlib = 'inline'" >>/root/.ipython/profile_default/ipython_config.py
 
+RUN mkdir -p /opt/sanickube/shdir
+RUN echo 'nohup jupyter notebook --allow-root &' >> /opt/sanickube/shdir/run_jupyter.sh
 
-RUN mkdir -p /opt/files/python
-WORKDIR /opt/files/python/
-RUN echo 'nohup jupyter notebook --allow-root &' >> /opt/files/python/run_jupyter.sh
-
-WORKDIR /opt/
+WORKDIR /opt/sanickube/shdir/
 
 EXPOSE 8888

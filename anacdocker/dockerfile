@@ -1,4 +1,4 @@
-FROM basecentos:1.1
+FROM basecentos:1.2
 MAINTAINER CVUSK
 
 
